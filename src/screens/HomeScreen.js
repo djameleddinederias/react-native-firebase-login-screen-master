@@ -4,6 +4,7 @@ import Logo from "../components/Logo";
 import Header from "../components/Header";
 import Button from "../components/Button";
 import Paragraph from "../components/Paragraph";
+import {loginWithFacebook} from "../api/auth-api.js"; 
 
 const HomeScreen = ({ navigation }) => (
   <Background>
@@ -22,7 +23,7 @@ const HomeScreen = ({ navigation }) => (
     >
       S'inscrire
     </Button>
-    <Button  onPress={() => navigation.navigate("LoginScreen")}>
+    <Button  onPress={() => loginWithFacebook()}>
       Facebook
     </Button>
     

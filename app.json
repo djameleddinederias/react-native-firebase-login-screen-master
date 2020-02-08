@@ -25,6 +25,17 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "isDetached": true,
+    "detach": {
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v119-sdk35.0.0-6758e9de-1e10-40f8-863d-ec8972895cf1.tar.gz"
+    },
+    "scheme": "expd26868323cc84e7190b2fd3595150fc3",
+    "android": {
+      "package": "com.derias.reactnative",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
     }
   }
 }

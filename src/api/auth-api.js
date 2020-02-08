@@ -38,6 +38,13 @@ export const signInUser = async ({ name, email, password }) => {
     }
   }
 };
+export const loginWithFacebook = async ()=>{
+  var provider = new firebase.auth.FacebookAuthProvider();
+  firebase.auth().signInWithRedirect(provider);
+  
+};
+
+
 
 export const loginUser = async ({ email, password }) => {
   try {
